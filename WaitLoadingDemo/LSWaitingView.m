@@ -28,7 +28,6 @@
 		_loadingLabel = [[UILabel alloc] initWithFrame:CGRectMake(5, 50, 70, 20)];
 		_loadingLabel.backgroundColor = [UIColor clearColor];
 		[_loadingLabel setTextAlignment:NSTextAlignmentCenter];
-		_loadingLabel.text = @"加载中";
 		
 		_loadingLabel.font = [UIFont boldSystemFontOfSize:15.0f];
 		_loadingLabel.textColor = [UIColor whiteColor];

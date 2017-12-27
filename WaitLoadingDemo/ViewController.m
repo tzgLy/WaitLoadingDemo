@@ -23,6 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor=[UIColor whiteColor];
+    
     _waitingView = [[LSWaitingView alloc] initWithCenterLocation:self.view.center];
     [self.view addSubview:_waitingView];
     
