@@ -22,17 +22,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    
     
     _waitingView = [[LSWaitingView alloc] initWithCenterLocation:self.view.center];
-    
-    [_waitingView setTitle:@"加载中"];
     [self.view addSubview:_waitingView];
+    
+    //自定义标题
+    [_waitingView setTitle:@"加载中"];
+    
+    
     
 }
 
-
+//开始
 - (IBAction)startBtnClick:(id)sender {
     
     if (_waitingView ) {
@@ -40,6 +41,8 @@
     }
     
 }
+
+//停止
 - (IBAction)stopBtnClick:(id)sender {
     
     if (_waitingView ) {
