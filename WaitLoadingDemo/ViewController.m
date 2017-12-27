@@ -24,6 +24,7 @@
     [super viewDidLoad];
 
     
+    
     _waitingView = [[LSWaitingView alloc] initWithCenterLocation:self.view.center];
     
     [_waitingView setTitle:@"加载中"];
