@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283300CA1FF498240090DC1D /* IMG.png in Resources */ = {isa = PBXBuildFile; fileRef = 283300C91FF498240090DC1D /* IMG.png */; };
 		288EA7A91FF38F4700059E27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 288EA7A81FF38F4700059E27 /* AppDelegate.m */; };
 		288EA7AC1FF38F4700059E27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 288EA7AB1FF38F4700059E27 /* ViewController.m */; };
 		288EA7AF1FF38F4700059E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288EA7AD1FF38F4700059E27 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		283300C91FF498240090DC1D /* IMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG.png; sourceTree = "<group>"; };
 		288EA7A41FF38F4700059E27 /* WaitLoadingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaitLoadingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		288EA7A71FF38F4700059E27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		288EA7A81FF38F4700059E27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		283300C81FF498240090DC1D /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				283300C91FF498240090DC1D /* IMG.png */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 		288EA79B1FF38F4700059E27 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +116,7 @@
 		288EA7A61FF38F4700059E27 /* WaitLoadingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				283300C81FF498240090DC1D /* screenshots */,
 				288EA7DC1FF3911B00059E27 /* LSWaitingView.h */,
 				288EA7DD1FF3911B00059E27 /* LSWaitingView.m */,
 				288EA7A71FF38F4700059E27 /* AppDelegate.h */,
@@ -249,6 +260,7 @@
 				288EA7B71FF38F4700059E27 /* LaunchScreen.storyboard in Resources */,
 				288EA7B41FF38F4700059E27 /* Assets.xcassets in Resources */,
 				288EA7AF1FF38F4700059E27 /* Main.storyboard in Resources */,
+				283300CA1FF498240090DC1D /* IMG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
