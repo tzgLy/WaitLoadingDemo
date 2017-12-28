@@ -2,7 +2,7 @@
 
 ### 演示截图如下：
 
- ![image](https://github.com/tzgLy/WaitLoadingDemo/blob/master/WaitLoadingDemo/WaitLoadingDemo/screenshots/IMG.png)
+ ![image](https://github.com/tzgLy/WaitLoadingDemo/raw/master/screenshots/IMG.png)
 
 ### 介绍：只需两个文件,导入头文件即可使用
 
